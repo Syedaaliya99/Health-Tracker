@@ -30,26 +30,23 @@
               <span class="links_name">Sign Out</span>
              </a>
          
-     </div>
-     <div class="content">
-        <p> How much is your Water Intake:</p>
-        <form id="waterForm">
-        <label for="QuantityPerTime">Quantity Per time:</label>
-          <input type="number" name="quantityPerTime" min="0" step="400">
-          <text>Litres<br><br>
-          <br><br><br><br>
-          <label for="FrequencyOfIntake">Frequency of Water Intake:</label>
-          <input type="number" name="frequencyOfIntake" min="0" step="100">
-          <text>Times
-         <br><br><br><br>
-         <label for="TotalWaterIntake">Total Water Intake:</label>
-         <input type="number" name="TotalWaterIntake" min="" step="">
-         <text>Litres
-         <br><br><br><br>
-          <input type="submit" value="Save">
-         <div  class="button">
-           <input type="submit" value="Next">
-         </div>
+             </div>
+             <div class="content">
+                 <p>How much is your Water Intake:</p>
+                 <form id="waterForm">
+                     <label for="QuantityPerTime">Quantity Per time:</label>
+                     <input type="number" name="quantityPerTime" id="quantityPerTime" min="0" step="any" placeholder="Litres"><text>Litres
+                     <br><br>
+                     <label for="FrequencyOfIntake">Frequency of Water Intake:</label>
+                     <input type="number" name="frequencyOfIntake" id="frequencyOfIntake" min="0" step="any" placeholder="Times"><text>Times
+                     <br><br>
+                     <label for="TotalWaterIntake">Total Water Intake:</label>
+                     <input type="text" name="TotalWaterIntake" id="totalWaterIntake" readonly placeholder="Litres"><text>Litres
+                     <br><br>
+                     <input type="submit" value="Save">
+                     <div class="button">
+                         <input type="submit" value="Next">
+                     </div>
        </form>
     </div>
 </body>
